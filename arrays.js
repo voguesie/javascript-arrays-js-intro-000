@@ -22,3 +22,7 @@ return newArr
 function destructivelyAddElementToEndOfArray(arr, endElement) {
 return arr.push(endElement)
 }
+
+function accessElementInArray(arr, arrIndex) {
+  return arr[arrIndex]
+}
