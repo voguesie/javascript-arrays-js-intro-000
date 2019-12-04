@@ -26,3 +26,7 @@ return arr.push(endElement)
 function accessElementInArray(arr, arrIndex) {
   return arr[arrIndex]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(arr) {
+  return arr.unshift(arr[1])
+}
