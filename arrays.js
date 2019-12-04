@@ -15,7 +15,7 @@ return arr.push(addElement)
 }
 
 function addElementToEndOfArray(arr, endElement) {
-var newArr = arr.unshift(endElement);
+var newArr = arr.push(endElement);
 return newArr
 }
 
