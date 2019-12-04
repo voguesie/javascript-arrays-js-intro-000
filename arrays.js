@@ -13,3 +13,12 @@ return newArr
 function destructivelyAddElementToEndOfArray(arr, addElement) {
 return arr.push(addElement)
 }
+
+function addElementToEndOfArray(arr, endElement) {
+var newArr = arr.unshift(endElement);
+return newArr
+}
+
+function destructivelyAddElementToEndOfArray(arr, endsElement) {
+return arr.push(endElement)
+}
